@@ -1,5 +1,5 @@
 # VERSION — P5 Genesis (genesis-layer)
 # Function: the current release version of this layer. Advances only on freeze.
-# 1.0.0 — P5 frozen. Tests pass (2/2).
+# 2.0.0 — P5 v2 strict layer frozen. Tests pass (20/20: v1 2/2, v2 18/18).
 
-1.0.0
+2.0.0

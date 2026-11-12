@@ -1,0 +1,11 @@
+# requirements.txt — P5 Genesis (genesis-layer)
+# Function: runtime dependencies for P5. P4 ledger-layer and P1
+# envelope-layer are not pip packages: they are the sibling checkouts
+# ../ledger-layer and ../envelope-layer.
+#
+# Confirmed on laptop (Windows, Python 3.13): cryptography (as P1).
+# S24 (Termux) version: unconfirmed — record it here when checked.
+#
+# Tests additionally need pytest (test tool, not a runtime dependency).
+
+cryptography

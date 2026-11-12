@@ -8,8 +8,16 @@ Function:
     for the underlying ChronoSCRIBE append primitives.
 
 Layer:    P5 — Genesis
-Depends:  P4 Ledger (ledger.py)
+Depends:  P4 Ledger v1.0.0 (ledger.py), checked out as the sibling
+          directory `../ledger-layer`, which in turn needs P1
+          Envelope v2 at `../envelope-layer`
 Consumed: P6 Canon Verify
 Licence:  MSL-1.0
 Author:   James Gilbert (Giblets Forge)
-Status:   0.0.0-dev (in build, pre-freeze)
+Status:   2.0.0 frozen (genesis_v2.py, SPEC_V2.md), a strict layer
+          over 1.0.0 (genesis.py, SPEC.md), also frozen.
+
+New code imports `genesis_v2`, not `genesis`.
+
+Tests: `python -m pytest` (needs `cryptography` and `pytest`). Runs
+from the repo root or any other directory.
