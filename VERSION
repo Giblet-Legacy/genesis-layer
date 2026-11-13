@@ -2,4 +2,6 @@
 # Function: the current release version of this layer. Advances only on freeze.
 # 2.0.0 — P5 v2 strict layer frozen. Tests pass (20/20: v1 2/2, v2 18/18).
 
-2.0.0
+# 3.0.0 — genesis_v3.py frozen (SPEC_V3.md, over genesis_v2 and P4 ledger_v2). Tests pass (27/27).
+
+3.0.0

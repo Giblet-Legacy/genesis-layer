@@ -20,6 +20,6 @@ Every function MUST have a numbered header.
 
 ## P5 Architecture Specifics
 - genesis.py depends on `ledger` (P4 v1.0.0); genesis_v2 is frozen over it.
-- genesis_v3.py (SPEC_V3.md, built, not frozen) depends on genesis_v2 and `ledger_v2` (P4 v2.0.0). New code imports `genesis_v3`.
+- genesis_v3.py (SPEC_V3.md, frozen 3.0.0) depends on genesis_v2 and `ledger_v2` (P4 v2.0.0). New code imports `genesis_v3`.
 - Implements the Genesis rule: only the root ledger mints a genesis batch.
 - Must refuse to run against a non-empty ledger.

@@ -18,7 +18,7 @@ Status:   2.0.0 frozen (genesis_v2.py, SPEC_V2.md), a strict layer
           over 1.0.0 (genesis.py, SPEC.md), also frozen.
 
 genesis_v3.py (SPEC_V3.md) is built over genesis_v2 and P4 ledger_v2,
-not yet frozen (NOTES.md Q4). New code imports `genesis_v3`.
+frozen at 3.0.0. New code imports `genesis_v3`.
 
 Tests: `python -m pytest` (needs `cryptography` and `pytest`). Runs
 from the repo root or any other directory.
