@@ -41,6 +41,10 @@ Function:
   that date (P4 NOTES Q1), so nothing changes yet. When P4 v2.0.0
   freezes, P5 adds a genesis_v3 layer that depends on ledger_v2
   (genesis_v2 is frozen and is not edited — Immutable Rule).
+  **Follow-up 2026-11-13:** P4 v2.0.0 froze; genesis_v3 built
+  (SPEC_V3.md), by the VS Code AI on James's delegation.
+- **Q4 — Freeze genesis_v3 at 3.0.0?** Built and green on the laptop
+  (27/27). Not yet run on the S24. Raised 2026-11-13. Owner: James.
 
 ## Divergences — genesis.py v1.0.0 (all resolved in SPEC_V2 / genesis_v2)
 

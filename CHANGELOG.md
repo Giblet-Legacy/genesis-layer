@@ -7,6 +7,21 @@ Function:
     Updated at every sign-off. Format never changes shape, even when a
     section is empty.
 
+## [Unreleased]
+
+### Good
+
+- `SPEC_V3.md`, `test_genesis_v3.py` (7 tests, run red first) and `genesis_v3.py`: the layer NOTES Q3 promised once P4 ledger_v2 froze (2.0.0, 2026-11-13). Mints via genesis_v2, confirms under ledger_v2, and adds `genesis_identity` / `verify_genesis`, the callable form of SPEC_V2 §3.2's root-ledger definition. 27/27 pass from the repo root and from the parent directory.
+- Built on James's delegation ("fix all 11 issues"). Not frozen: VERSION stays 2.0.0 until James says freeze (NOTES Q4).
+
+### Bad
+
+- (none)
+
+### Ugly
+
+- genesis_identity catches RecursionError itself, because frozen ledger_v2 can raise it on a deeply nested line (P4 NOTES Q3).
+
 ## [v2.0.0] — 2026-11-12
 
 ### Good
