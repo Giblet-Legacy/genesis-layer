@@ -32,7 +32,7 @@ Function:
     behave this way.
 - **Q2 — Freeze v2.0.0?** Raised 2026-11-12. **Resolved 2026-11-12 —
   James: "yes".** Frozen at 20/20 on the laptop (Windows, Python
-  3.13). The S24 run is still to be confirmed after the freeze.
+  3.13). S24 run confirmed on the S24 by James, 2026-11-13.
 - **Q3 — Move to ledger_v2 once P4 v2 freezes?** genesis_v2 depends
   only on frozen code (genesis.py v1.0.0 → ledger.py v1.0.0), as
   CLAUDE.md requires, and writes the P4 SPEC_V2 §2 line form so
@@ -43,7 +43,7 @@ Function:
   (genesis_v2 is frozen and is not edited — Immutable Rule).
   **Follow-up 2026-11-13:** P4 v2.0.0 froze; genesis_v3 built
   (SPEC_V3.md), by the VS Code AI on James's delegation.
-- **Q4 — Freeze genesis_v3 at 3.0.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; the S24 run is still to be confirmed. Built and green on the laptop
+- **Q4 — Freeze genesis_v3 at 3.0.0?** **Resolved 2026-11-13 — James: "freeze all".** Frozen on the laptop run; confirmed on the S24 by James, 2026-11-13. Built and green on the laptop
   (27/27). Not yet run on the S24. Raised 2026-11-13. Owner: James.
 
 ## Divergences — genesis.py v1.0.0 (all resolved in SPEC_V2 / genesis_v2)

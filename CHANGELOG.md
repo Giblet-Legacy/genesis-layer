@@ -30,7 +30,7 @@ Function:
 
 ### Bad
 
-- Frozen on the laptop run alone (2026-11-13); the S24 run is still to be confirmed.
+- Frozen on the laptop run alone (2026-11-13); confirmed on the S24 by James, 2026-11-13.
 
 ### Ugly
 
@@ -68,8 +68,8 @@ Function:
   minted on the laptop is rejected by P4 ledger_v2 (NOTES D1). It
   only imports from the repo root (D2) and accepts a non-dict record
   (D3). Shipped in v1.0.0 because the two v1 tests never covered them.
-- Frozen on the laptop run alone; the S24 run of the v2 suite is
-  still to be confirmed.
+- Frozen on the laptop run alone; the S24 run of the v2 suite was
+  confirmed on the S24 by James, 2026-11-13.
 
 ### Ugly
 
